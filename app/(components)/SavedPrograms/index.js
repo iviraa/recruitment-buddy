@@ -3,7 +3,7 @@ import { RiBookmarkLine, RiArrowRightLine } from "react-icons/ri";
 
 export function SavedPrograms({ savedCourses }) {
   return (
-    <div className="my-8 m-2 bg-white p-6 rounded-lg shadow-lg border-2 border-yellow-300">
+    <div className="my-8 m-2 bg-white p-6 rounded-lg shadow-lg border-2 border-yellow-300 ">
       <div className="text-2xl font-semibold text-yellow-800 mb-6 flex items-center justify-center ">
         <RiBookmarkLine className="mr-2 text-yellow-800" />
         Your Saved Programs

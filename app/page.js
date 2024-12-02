@@ -29,7 +29,7 @@ export default function Home() {
       <SavedPrograms savedCourses={savedCourses} />
 
       {/* Get Started Card with Image Background */}
-      <div className="my-8 relative m-4 rounded-2xl shadow-lg">
+      <div className="my-8 relative m-4 rounded-lg shadow-lg transition-all duration-300 opacity-0 animate-fade-in">
         <div className="absolute inset-0 z-0  ">
           <Image
             src={GetStarted}
@@ -40,14 +40,14 @@ export default function Home() {
             className="opacity-100 rounded-2xl "
           />
         </div>
-        <div className="relative z-9 p-8 bg-white bg-opacity-50 rounded-2xl border-2 border-yellow-300 shadow-lg">
+        <div className="relative z-9 p-8 bg-white bg-opacity-50 rounded-lg border-2 border-yellow-300 shadow-lg ">
           <h2 className="text-2xl font-bold text-yellow-800 mb-4">
             Get Started!
           </h2>
           <p className="text-lg font-semibold text-gray-600 mb-4">
             Start comparing degree programs and find your perfect fit!
           </p>
-          <button className="bg-yellow-400 text-yellow-800 py-2 px-4 rounded-2xl text-lg font-bold flex items-center">
+          <button className="bg-yellow-400 text-yellow-800 py-2 px-4 rounded-lg text-lg font-bold flex items-center">
             Start Now
             <FaRegArrowAltCircleRight className="ml-2 font-semibold" />
           </button>

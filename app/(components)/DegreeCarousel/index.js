@@ -55,7 +55,7 @@ export default function DegreeCarousel() {
       <h2 className="text-2xl font-semibold text-yellow-800 mb-4">
         Undergraduate Programs
       </h2>
-      <div className="relative w-full max-w-6xl mx-auto px-4 overflow-hidden">
+      <div className="relative w-full max-w-6xl mx-auto px-4 overflow-hidden transition-all duration-300 opacity-0 animate-fade-in">
         <div
           className="flex transition-transform duration-500 ease-in-out"
           style={{
@@ -64,13 +64,13 @@ export default function DegreeCarousel() {
         >
           {degreePrograms.map((program) => (
             <div
-              key={program.id}
+              key={program.name}
               className="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-2"
             >
               <div className="bg-yellow-50 border-2 border-yellow-300 rounded-lg p-6 h-full flex flex-col items-center justify-center">
                 <RiGraduationCapFill className="text-4xl text-yellow-600 mb-4" />
                 <h3 className="text-xl font-semibold text-yellow-800 mb-2 text-center">
-                  {program.category}
+                  {program.name}
                 </h3>
                 <p className="text-sm text-yellow-700 text-center">
                   {program.description}
