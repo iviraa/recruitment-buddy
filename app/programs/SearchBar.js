@@ -50,7 +50,7 @@ const SearchBar = ({ items, onFilter }) => {
           )}
         </div>
         {/* Search Bar */}
-        <div className="flex items-center bg-white p-2 rounded-lg shadow-md w-full">
+        <div className="flex items-center bg-white p-2 rounded-lg shadow-md w-full ">
           <RiSearchLine className="text-gray-500 text-lg mx-2" />
           <input
             type="text"
@@ -60,7 +60,7 @@ const SearchBar = ({ items, onFilter }) => {
               setSearchTerm(e.target.value);
               handleSearch(e.target.value, selectedCategory);
             }}
-            className="w-full border-none focus:outline-none text-gray-800"
+            className="w-full border-none focus:outline-none  text-gray-800 "
           />
         </div>
       </div>

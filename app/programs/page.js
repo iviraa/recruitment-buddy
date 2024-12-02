@@ -4,6 +4,7 @@ import TitleBar from "../(components)/Titlebar";
 import SearchBar from "./SearchBar";
 import { degreePrograms } from "@/app/utils/programs";
 import { RiArrowRightLine } from "react-icons/ri";
+import { useRouter } from "next/navigation";
 
 const items = [
   { id: 1, name: "Computer Science", category: "Computer Science" },
@@ -13,6 +14,12 @@ const items = [
 ];
 
 const Programs = () => {
+  const router = useRouter();
+
+  const handleRoute = (id) => {
+    router.push(`/programs/${id}`);
+  };
+
   const [filteredItems, setFilteredItems] = useState(degreePrograms);
   let count = 1;
 
@@ -33,17 +40,20 @@ const Programs = () => {
               <div className="flex items-center flex-row ">
                 <div className="flex items-center space-x-4 mb-2 sm:mb-0">
                   <div className="w-5 h-5  text-yellow-800 flex items-center justify-center rounded-full font-semibold text-lg">
-                    {count++}
+                    {item.id}
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-gray-800">
+                    <h3 className="text-base font-bold text-gray-800">
                       {item.name}
                     </h3>
-                    <p className="text-sm text-gray-600">{item.description}</p>
+                    <p className="text-sm text-gray-600">{item.short_description}</p>
                   </div>
                 </div>
               </div>
-              <button className="mt-2 sm:mt-0 px-2 py-2 text-sm bg-yellow-400 text-yellow-900 rounded-full hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:ring-opacity-50 transition-colors duration-300 flex items-center group">
+              <button
+                onClick={() => handleRoute(item.id)}
+                className="mt-2 sm:mt-0 px-2 py-2 text-sm bg-yellow-400 text-yellow-900 rounded-full hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:ring-opacity-50 transition-colors duration-300 flex items-center group"
+              >
                 Details
                 <RiArrowRightLine className="ml-1 transition-transform duration-300 group-hover:translate-x-1" />
               </button>
