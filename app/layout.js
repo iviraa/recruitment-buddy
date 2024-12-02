@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`w-full max mx-auto text-sm sm:text-base min-h-screen flex flex-col overflow-auto text-slate-800 `}
+        className={`w-full max-w-[600px] mx-auto text-sm sm:text-base min-h-screen flex flex-col overflow-auto text-slate-800 `}
       >
         {children}
         {footer}

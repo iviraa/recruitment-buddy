@@ -6,6 +6,7 @@ import { RiHome5Line, RiHome5Fill } from "react-icons/ri";
 import { RiBookOpenLine, RiBookOpenFill } from "react-icons/ri";
 import { RiAwardLine, RiAwardFill } from "react-icons/ri";
 import { RiMapPin2Line, RiMapPin2Fill } from "react-icons/ri";
+import { RiAccountCircleLine, RiAccountCircleFill } from "react-icons/ri";
 
 function Navbar() {
   const pathname = usePathname();
@@ -25,7 +26,7 @@ function Navbar() {
       activeIcon: RiAwardFill,
     },
     {
-      href: "/campus-visit",
+      href: "/visit",
       label: "Campus Visit",
       icon: RiMapPin2Line,
       activeIcon: RiMapPin2Fill,
