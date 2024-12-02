@@ -1373,3 +1373,266 @@ export const degreePrograms = [
       "Regionally accredited by the Southern Association of Colleges and Schools (SACS)",
   },
 ];
+
+export const scholarshipPrograms = [
+  {
+    id: 1,
+    name: "Accounting Excellence Scholarship",
+    amount: 4000,
+    requirements: {
+      gpa: 3.5,
+      major: ["Accounting"],
+      essayRequired: true,
+    },
+    deadline: "2024-06-30",
+    description:
+      "This scholarship is for students pursuing a degree in Accounting with a focus on financial analysis and business decision-making.",
+  },
+  {
+    id: 2,
+    name: "Anthropology Research Scholarship",
+    amount: 3500,
+    requirements: {
+      gpa: 3.0,
+      major: ["Anthropology"],
+      communityService: 20,
+    },
+    deadline: "2024-05-15",
+    description:
+      "Awarded to students studying Anthropology who demonstrate a passion for human societies and cultures through time.",
+  },
+  {
+    id: 3,
+    name: "Applied Cybersecurity Certificate Scholarship",
+    amount: 5000,
+    requirements: {
+      gpa: 3.2,
+      major: ["Applied Cybersecurity Certificate"],
+      essayRequired: true,
+    },
+    deadline: "2024-07-01",
+    description:
+      "For students pursuing an Applied Cybersecurity Certificate, this scholarship helps cover tuition for cybersecurity education.",
+  },
+  {
+    id: 4,
+    name: "Architectural Engineering Technology Scholarship",
+    amount: 4500,
+    requirements: {
+      gpa: 3.6,
+      major: ["Architectural Engineering Technology"],
+    },
+    deadline: "2024-06-01",
+    description:
+      "This scholarship is for students studying Architectural Engineering Technology to bridge the gap between architecture and engineering.",
+  },
+  {
+    id: 5,
+    name: "Art (Drawing and Painting) Scholarship",
+    amount: 3000,
+    requirements: {
+      gpa: 3.0,
+      major: ["Art (Drawing and Painting)"],
+    },
+    deadline: "2024-04-30",
+    description:
+      "For students specializing in Drawing and Painting, this scholarship supports the development of creative expression.",
+  },
+  {
+    id: 6,
+    name: "Biological Sciences Scholarship",
+    amount: 4000,
+    requirements: {
+      gpa: 3.7,
+      major: ["Biological Sciences BS"],
+    },
+    deadline: "2024-08-01",
+    description:
+      "Awarded to students pursuing a degree in Biological Sciences, focusing on advanced studies in biology.",
+  },
+  {
+    id: 7,
+    name: "Business Administration Scholarship (Entrepreneurship)",
+    amount: 5000,
+    requirements: {
+      gpa: 3.3,
+      major: ["Business Administration (Entrepreneurship)"],
+      essayRequired: true,
+    },
+    deadline: "2024-05-10",
+    description:
+      "For students studying Entrepreneurship within Business Administration, focusing on starting and growing their own business.",
+  },
+  {
+    id: 8,
+    name: "Chemistry Scholarship (ACS-Certified)",
+    amount: 4500,
+    requirements: {
+      gpa: 3.5,
+      major: ["Chemistry (ACS-Certified Chemistry)"],
+    },
+    deadline: "2024-09-01",
+    description:
+      "A scholarship for students studying ACS-Certified Chemistry in preparation for advanced research or industry.",
+  },
+  {
+    id: 9,
+    name: "Communication Studies BA Scholarship",
+    amount: 3500,
+    requirements: {
+      gpa: 3.0,
+      major: ["Communication Studies BA"],
+      essayRequired: true,
+    },
+    deadline: "2024-07-15",
+    description:
+      "This scholarship supports students in Communication Studies focusing on effective communication strategies.",
+  },
+  {
+    id: 10,
+    name: "Computer Engineering Scholarship",
+    amount: 5000,
+    requirements: {
+      gpa: 3.6,
+      major: ["Computer Engineering BS"],
+    },
+    deadline: "2024-06-10",
+    description:
+      "For students pursuing a career in computer systems and engineering, this scholarship helps fund their education.",
+  },
+  {
+    id: 11,
+    name: "Criminal Justice (Juvenile Justice) Scholarship",
+    amount: 4000,
+    requirements: {
+      gpa: 3.2,
+      major: ["Criminal Justice (Juvenile Justice) BA"],
+      communityService: 30,
+    },
+    deadline: "2024-06-20",
+    description:
+      "Awarded to students studying Juvenile Justice within Criminal Justice to enhance the justice system for young people.",
+  },
+  {
+    id: 12,
+    name: "Dance (Performance and Choreography) BFA Scholarship",
+    amount: 3500,
+    requirements: {
+      gpa: 3.0,
+      major: ["Dance (Performance and Choreography) BFA"],
+      portfolioRequired: true,
+    },
+    deadline: "2024-05-25",
+    description:
+      "For students focusing on performance and choreography in Dance, this scholarship fosters artistic development.",
+  },
+  {
+    id: 13,
+    name: "Digital Journalism BA Scholarship",
+    amount: 4000,
+    requirements: {
+      gpa: 3.3,
+      major: ["Digital Journalism BA"],
+    },
+    deadline: "2024-08-15",
+    description:
+      "Awarded to students in Digital Journalism, encouraging the production of digital content for the media industry.",
+  },
+  {
+    id: 14,
+    name: "Elementary Education Scholarship",
+    amount: 4500,
+    requirements: {
+      gpa: 3.4,
+      major: ["Elementary Education BS"],
+      communityService: 20,
+    },
+    deadline: "2024-07-01",
+    description:
+      "This scholarship is for future elementary school teachers to support their educational journey.",
+  },
+  {
+    id: 15,
+    name: "Environmental Sciences Scholarship",
+    amount: 3500,
+    requirements: {
+      gpa: 3.5,
+      major: ["Biological Sciences (Conservation Biology)"],
+    },
+    deadline: "2024-06-30",
+    description:
+      "For students studying conservation biology, this scholarship supports environmental protection efforts.",
+  },
+  {
+    id: 16,
+    name: "Finance BSBA Scholarship",
+    amount: 5000,
+    requirements: {
+      gpa: 3.6,
+      major: ["Finance BSBA"],
+    },
+    deadline: "2024-08-01",
+    description:
+      "This scholarship is for students pursuing a career in financial analysis and management.",
+  },
+  {
+    id: 17,
+    name: "Healthcare Marketing BSBA Scholarship",
+    amount: 4500,
+    requirements: {
+      gpa: 3.4,
+      major: ["Healthcare Marketing BSBA"],
+    },
+    deadline: "2024-09-01",
+    description:
+      "Awarded to students interested in marketing strategies in the healthcare industry.",
+  },
+  {
+    id: 18,
+    name: "History Scholarship",
+    amount: 3500,
+    requirements: {
+      gpa: 3.2,
+      major: ["History BA"],
+    },
+    deadline: "2024-06-10",
+    description:
+      "For students studying the impact of history on modern society, this scholarship encourages further exploration.",
+  },
+  {
+    id: 19,
+    name: "Human Resources Management BSBA Scholarship",
+    amount: 4000,
+    requirements: {
+      gpa: 3.3,
+      major: ["Human Resources Management BSBA"],
+    },
+    deadline: "2024-07-15",
+    description:
+      "A scholarship to support students pursuing a career in managing human resources in business environments.",
+  },
+  {
+    id: 20,
+    name: "Nursing BSN Scholarship",
+    amount: 5500,
+    requirements: {
+      gpa: 3.7,
+      major: ["Nursing BSN"],
+    },
+    deadline: "2024-06-15",
+    description:
+      "This scholarship is for students preparing to become registered nurses, supporting their education in nursing.",
+  },
+  {
+    id: 21,
+    name: "Psychology BS Scholarship",
+    amount: 4000,
+    requirements: {
+      gpa: 3.5,
+      major: ["Psychology BS"],
+    },
+    deadline: "2024-05-30",
+    description:
+      "Awarded to students studying psychology, focusing on understanding individual and group behavior.",
+  },
+];
