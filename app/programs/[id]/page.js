@@ -42,10 +42,12 @@ const DegreeDetails = ({ params }) => {
             <MdCompareArrows className="ml-1 transition-transform duration-300 group-hover:translate-x-1" />
           </button>
         </Link>
-        <button className="mt-2 sm:mt-0 px-2 py-2 text-sm bg-yellow-800 text-yellow-400 rounded-full hover:bg-yellow-900 focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:ring-opacity-50 transition-colors duration-300 flex items-center group">
-          Contact Us
-          <IoCall className="ml-1 transition-transform duration-300 group-hover:translate-x-1" />
-        </button>
+        <Link href="/programs/contact">
+          <button className="mt-2 sm:mt-0 px-2 py-2 text-sm bg-yellow-800 text-yellow-400 rounded-full hover:bg-yellow-900 focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:ring-opacity-50 transition-colors duration-300 flex items-center group">
+            Contact Faculty
+            <IoCall className="ml-1 transition-transform duration-300 group-hover:translate-x-1" />
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -8,15 +8,9 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { SavedPrograms } from "./(components)/SavedPrograms";
 
 const savedCourses = [
-  { id: 1, name: "Data Science", description: "Analyze complex data." },
-  { id: 2, name: "Marketing", description: "Master market strategies." },
-  { id: 3, name: "Nursing", description: "Care for patients." },
-  { id: 4, name: "Psychology", description: "Explore human behavior." },
-  {
-    id: 5,
-    name: "Computer Science",
-    description: "Learn computational theory.",
-  },
+  { id: 1, name: "Computer Science", description: "Learn computational theory." },
+  { id: 2, name: "Nursing BSN", description: "Care for patients." },
+ 
 ];
 
 export default function Home() {
@@ -29,7 +23,7 @@ export default function Home() {
       <SavedPrograms savedCourses={savedCourses} />
 
       {/* Get Started Card with Image Background */}
-      <div className="my-8 relative m-4 rounded-lg shadow-lg transition-all duration-300 opacity-0 animate-fade-in">
+      <div className="my-4 relative m-2 rounded-lg shadow-lg transition-all duration-300 opacity-0 animate-fade-in">
         <div className="absolute inset-0 z-0  ">
           <Image
             src={GetStarted}
@@ -40,11 +34,11 @@ export default function Home() {
             className="opacity-100 rounded-2xl "
           />
         </div>
-        <div className="relative z-9 p-8 bg-white bg-opacity-50 rounded-lg border-2 border-yellow-300 shadow-lg ">
-          <h2 className="text-2xl font-bold text-yellow-800 mb-4">
+        <div className="relative z-9 px-8 py-2 bg-white bg-opacity-50 rounded-lg border-2 border-yellow-300 shadow-lg ">
+          <h2 className="text-2xl font-bold text-yellow-800 mb-1">
             Get Started!
           </h2>
-          <p className="text-lg font-semibold text-gray-600 mb-4">
+          <p className="text-lg font-semibold text-gray-600 mb-1">
             Start comparing degree programs and find your perfect fit!
           </p>
           <button className="bg-yellow-400 text-yellow-800 py-2 px-4 rounded-lg text-lg font-bold flex items-center">

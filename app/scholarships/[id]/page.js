@@ -21,7 +21,7 @@ const ScholarshipDetails = ({ params }) => {
       <hr className="mt-4" />
 
       <div className="text-base flex  text-gray-700 mt-4">
-        <p className="font-semibold mr-1">GPA: </p> {program.requirements.gpa}
+        <p className="font-semibold mr-1">Minimum GPA: </p> {program.requirements.gpa}
       </div>
       <div className="text-base flex  text-gray-700 mt-4">
         <p className="font-semibold mr-1">Major: </p>{" "}

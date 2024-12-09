@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useCallback } from "react";
-import { RiGraduationCapFill } from "react-icons/ri";
+import { RiGraduationCapFill, RiGraduationCapLine } from "react-icons/ri";
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 import { degreePrograms } from "@/app/utils/programs";
 
@@ -52,9 +52,10 @@ export default function DegreeCarousel() {
 
   return (
     <div className="m-2 pb-4 px-2 border-2 shadow-lg border-yellow-300 rounded-lg flex items-center flex-col ">
-      <h2 className="text-2xl font-semibold text-yellow-800 mb-4">
+      <div className="text-2xl font-semibold text-yellow-800 mb-6 mt-6 flex items-center justify-center ">
+        <RiGraduationCapLine className="mr-2 text-yellow-800" />
         Undergraduate Programs
-      </h2>
+      </div>
       <div className="relative w-full max-w-6xl mx-auto px-4 overflow-hidden transition-all duration-300 opacity-0 animate-fade-in">
         <div
           className="flex transition-transform duration-500 ease-in-out"
@@ -68,7 +69,6 @@ export default function DegreeCarousel() {
               className="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-2"
             >
               <div className="bg-yellow-50 border-2 border-yellow-300 rounded-lg p-6 h-full flex flex-col items-center justify-center">
-                <RiGraduationCapFill className="text-4xl text-yellow-600 mb-4" />
                 <h3 className="text-xl font-semibold text-yellow-800 mb-2 text-center">
                   {program.name}
                 </h3>

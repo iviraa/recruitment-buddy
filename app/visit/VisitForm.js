@@ -178,7 +178,7 @@ const CampusVisitScheduler = () => {
               <RiBookOpenLine className="h-5 w-5 text-yellow-400" />
             </div>
             <Dropdown
-              options={["Fall 2023", "Spring 2024", "Fall 2024"]}
+              options={["Spring 2025", "Fall 2025", "Spring 2026", "Fall 2026"]}
               selectedValue={startTerm}
               onSelect={setStartTerm}
             />
