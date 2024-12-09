@@ -12,7 +12,9 @@ const ScholarshipDetails = ({ params }) => {
   return (
     <div className=" mx-4 my-6 p-6 border border-yellow-400 shadow-lg rounded-lg bg-white">
       <h1 className="text-2xl font-bold text-yellow-800">{program.name}</h1>
-      <div className="text-base font-semibold text-gray-500 mt-1">Amount: ${program.amount}</div>
+      <div className="text-base font-semibold text-gray-500 mt-1">
+        Amount: ${program.amount}
+      </div>
       <div className="text-base font-semibold italic text-yellow-500 mt-1">
         {program.description}
       </div>

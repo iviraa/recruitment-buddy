@@ -8,7 +8,7 @@ const SearchBar = ({ items, onFilter }) => {
 
   const [showFilterDropdown, setShowFilterDropdown] = useState(false);
 
-  const filters = ["Ascending", "Descending"]; // Example additional filters
+  const filters = ["Engineering", "Business","Arts","Medicine", "IT", "Ascending", "Descending" ]; // Example additional filters
 
   const handleSearch = (term, category) => {
     const filteredItems = items.filter((item) => {
