@@ -14,7 +14,7 @@ function TitleBar({ title, isActive = true }) {
   return (
     <div className="sticky top-0 z-10 bg-yellow-400 shadow-md mb-4">
       <div className="container mx-auto px-4 py-3">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between ml-2">
           <div className="flex items-center space-x-3">
             <RiMenu3Line className="text-2xl text-yellow-700 cursor-pointer" />
           </div>
@@ -22,7 +22,7 @@ function TitleBar({ title, isActive = true }) {
             <span className="text-lg font-medium text-yellow-800"></span>
            
           </div>
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 mr-2">
             <div className="relative">
               <RiNotification3Line
                 className="text-2xl text-yellow-700 cursor-pointer"
