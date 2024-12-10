@@ -37,7 +37,7 @@ const FacultyDetails = () => {
         <ul className="list-disc list-inside mt-1 ml-4">
           <li>Ph.D. in Computer Science</li>
           <li>M.S. in Artificial Intelligence</li>
-          <li>Bachelor's in Software Engineering</li>
+          <li>Bachelor&apos;s in Software Engineering</li>
         </ul>
       </div>
 
